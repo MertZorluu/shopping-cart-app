@@ -1,0 +1,56 @@
+.parent_div {
+  padding: 15px;
+  width: 200px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.sizes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  font-size: 0.8em;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  line-height: 35px;
+}
+
+label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+label span {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 35px;
+  height: 35px;
+  font-size: 0.8em;
+  border-radius: 50%;
+  box-sizing: border-box;
+  line-height: 35px;
+  text-align: center;
+  color: rgb(27, 26, 32);
+  background-color: rgb(236, 236, 236);
+  border: 1px solid transparent;
+}
+
+label :hover {
+  border: 1px solid rgb(34, 32, 32);
+}

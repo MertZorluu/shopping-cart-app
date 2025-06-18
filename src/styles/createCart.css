@@ -1,0 +1,146 @@
+.product-banner {
+ background-color: grey;
+  height: 400px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.product-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.shop-now-btn {
+  background-color: #ff6f61;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: #e15f51;
+}
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.cart-images {
+  width: 220px;
+  position: relative;
+  
+}
+.cart-images img {
+  width: 100%;
+}
+.free-shipping {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(27, 26, 32);
+  color: rgb(236, 236, 236);
+  font-size: 10px;
+  padding: 4px 4px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  height: 45px;
+  padding: 0 20px;
+  text-align: center;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.divider {
+  background-color: rgb(234, 191, 0);
+  height: 2px;
+  width: 20px;
+}
+
+.cost-section{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.cost-option-1 {
+  margin: 5px;
+}
+.dollar-sign {
+  margin-right: 2px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.price {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.cost-option-2 {
+  color: rgb(156, 155, 155);
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.cost-option-2 span {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.cart-btn {
+  background-color: rgb(27, 26, 32);
+  color: rgb(255, 255, 255);
+  padding: 15px 0;
+  margin-top: 10px;
+  height: 55px;
+  width: 222px;
+  transition: background-color 0.2s ease 0s;
+  cursor: pointer;
+}
+.cart-btn:hover {
+  background-color: rgb(226, 166, 54);
+  border: none;
+}
+.qweqwe{
+  width: 78.38px;
+  height: 4px;
+  
+}
